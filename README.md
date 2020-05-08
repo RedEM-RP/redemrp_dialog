@@ -20,8 +20,8 @@ if not --> [RedEM](https://github.com/kanersps/redem) --> [RedEM:RP](https://git
 TriggerEvent("redemrp_dialog:createDialog", ID, "TITLE", "SUBTITLE/CONTEXT",
     {
         {name = "OPTION 1", func = function(source) TriggerEvent('redemrp_dialog:openDialog', ID , source) end}, -- OPENS NEXT DIALOG
-        {name = "OPTION 2",  func = function() print("SELECTED 2") end}, -- PRINTING 2 IN CONSOLE
-        {name = "OPTION 3",func = function() end, focusOFF = true}, -- CLOSES AND UNFOCUSING MENU
+        {name = "OPTION 2", func = function() print("SELECTED 2") end}, -- PRINTING 2 IN CONSOLE
+        {name = "OPTION 3", func = function() end, focusOFF = true}, -- CLOSES AND UNFOCUSING MENU
     }
 )
 ```

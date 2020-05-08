@@ -13,7 +13,7 @@ if not --> [RedEM](https://github.com/kanersps/redem) --> [RedEM:RP](https://git
 - /getdialogs - Prints All dialogs in console.
 - /opendialog ID - Opens following dialog menu.
 
-## 3. How to create dialog?
+## 3. How to create dialog? (server-side)
 - Use following example in server-side to create a dialog menu
 
 ```
@@ -26,9 +26,16 @@ TriggerEvent("redemrp_dialog:createDialog", ID, "TITLE", "SUBTITLE/CONTEXT",
 )
 ```
 
+## 4. How to open dialog? (client-side)
+- Use following example in client-side to open a dialog menu
+
+```
+TriggerServerEvent("redemrp_dialog:openDialog", ID)
+```
+
 - There is also example provided in sv_quest.lua and cl_quest.lua, use **Config.ExampleQuest = true** to enable the example quest(It's enabled by default).
 - For any support join our discord - https://discord.gg/FKH4uwb
 
-## 4. Credits
+## 5. Credits
 https://github.com/amakuu/ <br/>
 https://github.com/Ktos93/

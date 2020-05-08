@@ -30,5 +30,5 @@ TriggerEvent("redemrp_dialog:createDialog", ID, "TITLE", "SUBTITLE/CONTEXT",
 - For any support join our discord - https://discord.gg/FKH4uwb
 
 ## 4. Credits
-https://github.com/amakuu/
+https://github.com/amakuu/ <br/>
 https://github.com/Ktos93/

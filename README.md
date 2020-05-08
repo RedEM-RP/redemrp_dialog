@@ -26,7 +26,7 @@ TriggerEvent("redemrp_dialog:createDialog", ID, "TITLE", "SUBTITLE/CONTEXT",
 )
 ```
 
-- There is also example provided in sv_quest.lua and cl_quest.lua, use *Config.ExampleQuest = true* to enable the example quest(It's enabled by default).
+- There is also example provided in sv_quest.lua and cl_quest.lua, use **Config.ExampleQuest = true** to enable the example quest(It's enabled by default).
 - For any support join our discord - https://discord.gg/FKH4uwb
 
 ## 4. Credits
